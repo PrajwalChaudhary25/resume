@@ -1,0 +1,389 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.7/schema.json
+cv:
+  name: Prajwal Chaudhary
+  headline: Aspiring AI Engineer & Full Stack Developer
+  location: Kirtipur
+  email: prajwalchy25@gmail.com
+  
+  phone: +977 9862991087
+  website: https://prajwalchaudhary25.com.np/
+  social_networks:
+    - network: LinkedIn
+      username: prajwal-chaudhary-50596a239
+    - network: GitHub
+      username: PrajwalChaudhary25
+  custom_connections: 
+  sections:
+    Professional Summary:
+      - bullet: 'Aspiring AI Engineer and Full Stack Developer with a strong foundation in machine learning, software development, and data analysis. Passionate about leveraging technology to solve real-world problems and drive innovation.'
+      - bullet: 'Proficient in Python, JavaScript, and various ML frameworks such as TensorFlow and PyTorch. Experienced in building end-to-end full-stack AI applications.'
+      - bullet: 'Eager to contribute to cutting-edge projects in AI and software development, while continuously learning and growing in the field.'
+    Technical Skills:
+      - label: Core AI/ML
+        details: >-
+          Deep Learning (CNN, RNN), YOLOv9, Transfer Learning, LLM Fine-tuning,
+          QLoRA/LoRA, Real-time Inference
+      - label: Frameworks
+        details: >-
+          TensorFlow, Keras, HuggingFace, Ultralytics YOLO, OpenCV,
+          SymPy, Scikit-learn, NumPy, Pandas
+      - label: Languages
+        details: >-
+          Python, JavaScript,
+          C++, SQL
+      - label: Frontend
+        details: >-
+          HTML/CSS, React.js, Bootstrap
+      - label: Backend
+        details: >-
+          Django REST Framework, Flask, Node.js/Express.js,  PostgreSQL, JWT, RESTful APIs, Django ORM & Migrations
+      - label: AI Pipeline
+        details: >-
+          Data preprocessing & augmentation, model evaluation & tuning,
+          local deployment, hardware deployment
+      - label: Tools
+        details: >-
+          Git/GitHub, Jupyter Notebook, Google Colab, Mathpix SDK,
+          Django Admin, Virtual Environments, LaTeX
+    ongoing_research:
+      - company: "Tribhuvan University, IOE Thapathali Campus"
+        position: Major Project lead
+        date:
+        start_date: "2025-07"
+        end_date: present
+        location: Kathmandu, Nepal
+        summary: >-
+          - **Automated Marking & Feedback System for Multi-Step Algebraic Math
+          Solutions** 
+          - supervised by Asst. Prof. Suwarna Lingden
+        highlights:
+          - >-
+            **Pipeline:** Mathpix OCR → LaTeX extraction → RegEx preprocessing →
+            SymPy symbolic reasoning (step validation) → fine-tuned
+            DeepSeekMath-7B rubric generation → comparison model for marks &
+            feedback
+          - >-
+            Covers algebraic simplification, equations, and logarithmic
+            expressions at Easy/Medium/Hard difficulty for grades 1–10.
+
+          - >-
+            Co-developed with  Purushottam Gajurel, Sagar
+            Bikram Adhikari and Jesis Upadhayaya.
+    Software Projects:
+      - name: "Plastic detection & classification -- an hybrid approach"
+        date:
+        start_date: "2025-01"
+        end_date: "2025-07"
+        location:
+        summary: >-
+          A real-time plastic detection system; the software
+          foundation for the TrashVision hardware project.
+        highlights:
+          - >-
+            Trained YOLOv9 object detection model on a
+            self curated plastic waste dataset; two-stage pipeline: YOLO bounding
+            boxes → CNN softmax classifier.
+          - >-
+            Flask web app with photo upload and live webcam inference modes.
+          - >-
+            Published research paper in JACEM journal.
+          - >-
+            **Experimental Results:** YOLOv9 achieved 95.77% precision, 97.04% 
+            recall, and 90.92% mAP@50–95; CNN classifier achieved 98.41% 
+            precision, 98.42% recall, and 98.40% F1-score.
+          - >-
+            [**GitHub**](https://github.com/PrajwalChaudhary25/plastic_detection_and_classification-An-Hybrid-approach)
+            | [**Demo video**](https://drive.google.com/file/d/1_Za4BeSZkGNh6Ts-ZJZb3wCuXeg2wIen/view) | 
+            [**Report**](https://github.com/PrajwalChaudhary25/plastic_detection_and_classification-An-Hybrid-approach/blob/main/project_report.pdf)
+      - name: Subscription Management System
+        date:
+        start_date: "2025-08"
+        end_date: "2025-09"
+        location:
+        summary: >-
+          A SaaS subscription platform with payment verification
+          and full admin oversight.
+        highlights:
+          - >-
+            Django REST Framework backend with JWT auth, token refresh, and
+            comprehensive permission layers and customized django admin.
+          - >-
+            Full subscription lifecycle: plan browsing, purchase, activation /
+            deactivation, and auto-renewal tracking.
+          - >-
+            React.js SPA with Axios interceptors, dynamic plan management, 
+            and mobile-responsive design.
+          - >-
+            [**GitHub**](https://github.com/PrajwalChaudhary25/subscription)
+            |  [**Demo video**](https://drive.google.com/file/d/1KYdzCCwox4V3Qzsfj2OzzQ3SWfTphXpP/view?usp=sharing)
+
+      - name: "Project Manager — Employee Time Logging & Logsheet System"
+        date:
+        start_date: "2025-09"
+        end_date: "2025-10"
+        location:
+        summary: >-
+          Full-stack employee time tracking and daily logsheet system with
+          dual-role access (Employee / Manager).
+        highlights:
+          - >-
+            Django REST Framework backend with JWT auth; employee check-in/out,
+            break logging, and daily logsheet submission with JIRA key
+            integration.
+          - >-
+            Manager approve/reject dashboard; employee work status; attendance statistics of Employees.
+          - >-
+            [**GitHub**](https://github.com/PrajwalChaudhary25/project-manager)
+            |  [**Demo video**](https://drive.google.com/file/d/1P0Q63QXTulJDLYz4wfLsuVGSvxVvKp0a/view?usp=drive_link)
+
+      - name: Console-Based Car Game
+        date:
+        start_date: "2024-05"
+        end_date: "2025-08"
+        location:
+        summary: >-
+          Multi-level interactive car game demonstrating OOP principles and
+          systems programming in C++.
+        highlights:
+          - >-
+            OOP architecture (Car, Game Manager, Collision Detection classes), 3
+            progressive difficulty levels, Windows API console graphics, winmm
+            audio integration, and file-based high score persistence.
+          - >-
+            [**Github**](https://github.com/PrajwalChaudhary25/Car-Game)
+            |  [**Demo**](https://drive.google.com/file/d/1U6egzYmDUhzkIy3BKQi9m18DRBr0HxLY/view?usp=drive_link)
+    Hardware Projects:
+      - name: "TrashVision — Real-Time Plastic Sorting Hardware System"
+        date: "2025"
+        start_date:
+        end_date:
+        location:
+        summary: >-
+          Physical deployment of plastic detection research onto hardware for autonomous real-time plastic identification and sorting.
+        highlights:
+          - Ported trained YOLOv9 + CNN inference pipeline onto embedded
+            hardware for on-device real-time plastic sorting.
+          - "**Hardware used:** Arduino UNO, Conveyer Belt, Gear Motor, Servo Motors, Camera Module"
+          - "**Award:** Secured **3rd place** at *Yathartha 2025*, competitive
+            tech showcase organised by IOE Thapathali Campus.
+            "
+          - "[**Certificate**](https://www.facebook.com/photo.php?fbid=122269337756159896&set=pb.61554796895760.-2207520000&type=3) | [**Demo video**](https://drive.google.com/file/d/1CR7vt34Bryxi4I_-qDyS4Ns4eXuxw5y2/view?usp=sharing)"
+    publications:
+      - title: 'Municipal Plastic Detection and Classification in Real Time using YOLOv9 and Custom CNN'
+        authors:
+          - '*Prajwal Chaudhary*'
+          - Kamal Shrestha
+          - Pabin Khanal
+          - Jesis Upadhyaya
+        summary:
+        doi: 10.3126/jacem.v11i1.84527
+        url: https://www.nepjol.info/index.php/JACEM/issue/view/5391
+        journal: JACEM 
+        date: 2025-07
+    education:
+      - institution: IOE Thapathali Campus
+        area: Computer Engineering
+        degree: BE
+        date:
+        start_date: 2022-07
+        end_date: 2026-07
+        location: Thapathali, Kathmandu
+        summary: About to be graduated.
+        highlights:
+          - '**Average Percentage:** 78%'
+          - "**Relevant Coursework:** OOP, Data Structures & Algorithms,
+            Deep Learning & Neural Networks, Computer Vision,
+            Machine Learning, Data Mining, Web Development, Database Systems, Software Engineering, Microprocessors, Embeded Systems."
+    certifications:
+      - bullet: 
+          "Responsive Web Design — freeCodeCamp. 
+          [**Certificate**](https://drive.google.com/file/d/1xCKhndGkzoSlB0B8NbM4CdkOTkjNsWkR/view?usp=sharing)"
+      - bullet: "Frontend Development Libraries — freeCodeCamp. [**Certificate**](https://drive.google.com/file/d/1hXmFVsSXV_YhZ2pE_48R7ALG4GUiv9c1/view?usp=sharing)"
+      
+
+design:
+  theme: classic
+  page:
+    size: us-letter
+    top_margin: 0.7in
+    bottom_margin: 0.7in
+    left_margin: 0.7in
+    right_margin: 0.7in
+    show_footer: true
+    show_top_note: false
+  # colors:
+  #   body: rgb(0, 0, 0)
+  #   name: rgb(0, 79, 144)
+  #   headline: rgb(0, 79, 144)
+  #   connections: rgb(0, 79, 144)
+  #   section_titles: rgb(0, 79, 144)
+  #   links: rgb(0, 79, 144)
+  #   footer: rgb(128, 128, 128)
+  #   top_note: rgb(128, 128, 128)
+  typography:
+    line_spacing: 0.7em
+  #   alignment: justified
+  #   date_and_location_column_alignment: right
+  #   font_family:
+  #     body: Source Sans 3
+  #     name: Source Sans 3
+  #     headline: Source Sans 3
+  #     connections: Source Sans 3
+  #     section_titles: Source Sans 3
+  #   font_size:
+  #     body: 10pt
+  #     name: 30pt
+  #     headline: 10pt
+  #     connections: 10pt
+  #     section_titles: 1.4em
+  #   small_caps:
+  #     name: false
+  #     headline: false
+  #     connections: false
+  #     section_titles: false
+  #   bold:
+  #     name: true
+  #     headline: false
+  #     connections: false
+  #     section_titles: true
+  # links:
+  #   underline: false
+  #   show_external_link_icon: false
+  # header:
+  #   alignment: center
+  #   photo_width: 3.5cm
+  #   photo_position: left
+  #   photo_space_left: 0.4cm
+  #   photo_space_right: 0.4cm
+  #   space_below_name: 0.7cm
+  #   space_below_headline: 0.7cm
+  #   space_below_connections: 0.7cm
+  #   connections:
+  #     phone_number_format: national
+  #     hyperlink: true
+  #     show_icons: true
+  #     display_urls_instead_of_usernames: false
+  #     separator: ''
+  #     space_between_connections: 0.5cm
+  # section_titles:
+  #   type: with_partial_line
+  #   line_thickness: 0.5pt
+  #   space_above: 0.5cm
+  #   space_below: 0.3cm
+  # sections:
+  #   allow_page_break: true
+  #   space_between_regular_entries: 1.2em
+  #   space_between_text_based_entries: 0.3em
+  #   show_time_spans_in:
+  #     - experience
+  # entries:
+  #   date_and_location_width: 4.15cm
+  #   side_space: 0.2cm
+  #   space_between_columns: 0.1cm
+  #   allow_page_break: false
+  #   short_second_row: true
+  #   degree_width: 1cm
+  #   summary:
+  #     space_above: 0cm
+  #     space_left: 0cm
+  #   highlights:
+  #     bullet: •
+  #     nested_bullet: •
+  #     space_left: 0.15cm
+  #     space_above: 0cm
+  #     space_between_items: 0cm
+  #     space_between_bullet_and_text: 0.5em
+  templates:
+    footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+    top_note: '*LAST_UPDATED CURRENT_DATE*'
+    single_date: MONTH_ABBREVIATION YEAR
+  #   date_range: START_DATE – END_DATE
+  #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+  #   one_line_entry:
+  #     main_column: '**LABEL:** DETAILS'
+  #   education_entry:
+  #     main_column: |-
+  #       **INSTITUTION**, AREA
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     degree_column: '**DEGREE**'
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   normal_entry:
+  #     main_column: |-
+  #       **NAME**
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   experience_entry:
+  #     main_column: |-
+  #       **COMPANY**, POSITION
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   publication_entry:
+  #     main_column: |-
+  #       **TITLE**
+  #       SUMMARY
+  #       AUTHORS
+  #       URL (JOURNAL)
+  #     date_and_location_column: DATE
+locale:
+  language: english
+  # last_updated: Last updated in
+  # month: month
+  # months: months
+  # year: year
+  # years: years
+  # present: present
+  # phrases:
+  #   degree_with_area: DEGREE in AREA
+  # month_abbreviations:
+  #   - Jan
+  #   - Feb
+  #   - Mar
+  #   - Apr
+  #   - May
+  #   - June
+  #   - July
+  #   - Aug
+  #   - Sept
+  #   - Oct
+  #   - Nov
+  #   - Dec
+  # month_names:
+  #   - January
+  #   - February
+  #   - March
+  #   - April
+  #   - May
+  #   - June
+  #   - July
+  #   - August
+  #   - September
+  #   - October
+  #   - November
+  #   - December
+settings:
+  current_date: today
+  render_command:
+    output_folder: rendercv_output
+    design:
+    locale:
+    typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.md
+    html_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.html
+    png_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []
+  pdf_title: NAME - CV

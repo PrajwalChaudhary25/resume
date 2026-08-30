@@ -1,0 +1,6 @@
+newenv
+newenv/
+rendercv_output/
+todo.txt
+package-lock.json
+package.json
